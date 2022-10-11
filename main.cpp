@@ -29,7 +29,7 @@ auto main() -> int {
                     if (std::filesystem::is_directory(entry.path())) {
                         std::cout << "Opening file: " << entry.path().stem().string() << std::endl;
                         std::filesystem::directory_iterator files(entry.path());
-                        entry.path().string();
+                        entry.path().string(); //s
                     }
 
                     else if (!std::filesystem::is_directory(entry.path())) {
