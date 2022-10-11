@@ -1,0 +1,5 @@
+# ninja log v5
+5	2656	1665514467361455448	CMakeFiles/RansomTest.dir/main.cpp.o	e408e85d0e6a8df9
+2656	2801	1665514467504788772	RansomTest	cc1b6e245cfec312
+1	1639	1665514466341455507	CMakeFiles/RansomTest.dir/encrypt.cpp.o	c93658cf514a21ab
+4	1519	1665514466224788847	CMakeFiles/RansomTest.dir/decrypt.cpp.o	bdc53e2b68ee440e

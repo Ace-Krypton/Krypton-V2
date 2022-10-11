@@ -1,0 +1,4 @@
+/var/lib/snapd/snap/clion/206/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/206/bin/ninja/linux/ninja -G Ninja -S /home/draco/CLionProjects/Krypton -B /home/draco/CLionProjects/Krypton/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/draco/CLionProjects/Krypton/cmake-build-debug

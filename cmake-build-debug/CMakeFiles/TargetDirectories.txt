@@ -1,0 +1,3 @@
+/home/draco/CLionProjects/Krypton/cmake-build-debug/CMakeFiles/Krypton.dir
+/home/draco/CLionProjects/Krypton/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/draco/CLionProjects/Krypton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
