@@ -10,7 +10,7 @@ Project Summary
 This project was developed for the Computer Security course at my academic degree. 
 Basically, it will encrypt your files in background using XTEA, an encryption algorithm, using RSA-4096 to secure the exchange with the server, 
 optionally using the Tor SOCKS5 Proxy.
-The project will be composed by three parts, the server, the malware and the unlocker.
+The project will be composed by three parts: the server, the malware and the unlocker.
 
 The server will store the victim's identification key along with the encryption key used by the malware.
 The malware will encrypt with a RSA-4096 (RSA-OAEP-4096 + SHA256) public key any payload before send then to the server. 
