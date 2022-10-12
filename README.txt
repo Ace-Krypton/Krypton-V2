@@ -20,12 +20,19 @@ This approach with the optional Tor Proxy and a .onion domain allow you to hide 
 TODO
 
 [ ] Run in Background (or not)
-[ ] Change encryption cypher to the AES-256-CTR(Counter Mode) with random IV for each file.
+[ ] Change encryption cypher to the AES-256-CTR(Counter Mode) with random IV for each file
 [ ] Multithreading
 [ ] RSA-4096 to secure the client/server communication
 [ ] Include an Unlocker
 [ ] Add an optional TOR Proxy support
-[ ] Use an AES CTR Cypher with stream encryption to avoid load an entire file into memory.
-[ ] Docker image for compilation.
+[ ] Use an AES CTR Cypher with stream encryption to avoid load an entire file into memory
+[ ] Docker image for compilation
 [ ] Daemon
 [ ] Dropper
+
+
+[DISCLAIMER]
+
+If you stupid enough to run this on your main machine then go on. 
+This Ransomware shouldn't be used to harm/threat/hurt other person's computer.
+Its purpose is only to share knowledge and awareness about Malware/Cryptography/Operating Systems/Programming.
